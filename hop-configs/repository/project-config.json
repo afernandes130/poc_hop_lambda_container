@@ -1,0 +1,16 @@
+{
+  "metadataBaseFolder" : "${PROJECT_HOME}/metadata",
+  "unitTestsBasePath" : "${PROJECT_HOME}",
+  "dataSetsCsvFolder" : "${PROJECT_HOME}/datasets",
+  "enforcingExecutionInHome" : true,
+  "parentProjectName" : "default",
+  "config" : {
+    "variables" : [ {
+      "name" : "MONTHYEAR_PARTITION",
+      "value" : "03-2013"
+    }, {
+      "name" : "YEARMONTH_MOVEMENT",
+      "value" : "201303"
+    } ]
+  }
+}
